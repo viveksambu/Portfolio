@@ -42,7 +42,7 @@ nav a:hover {
   color: #00bcd4;
 }
 
-/* SECTIONS */
+/* SECTION */
 section {
   padding: 4rem 2rem;
   max-width: 1000px;
@@ -88,7 +88,7 @@ h1, h2 {
   text-decoration: none;
 }
 
-/* GRID */
+/* GRID SECTIONS */
 .skills, .certifications, .projects, .tools {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -99,13 +99,15 @@ h1, h2 {
 .card {
   background: white;
   padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   transition: 0.3s;
+  text-align: center;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 /* FOOTER */
@@ -161,11 +163,11 @@ footer {
 </div>
 </section>
 
-<!-- TOOLS -->
+<!-- TOOLS (FIXED) -->
 <section id="tools">
 <h2>Tools</h2>
 <div class="tools">
-<div class="card">Power BI</div>
+<div class="card">MS Power BI</div>
 <div class="card">MongoDB</div>
 <div class="card">MySQL Workbench</div>
 </div>
